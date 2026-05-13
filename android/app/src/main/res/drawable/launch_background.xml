@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Modify this file to customize your launch splash screen -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- QuickBite brand orange background shown while Flutter initialises -->
+    <item android:drawable="#E8631A" />
+
+    <!-- Centred fork-knife icon drawn as a white circle -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFF" />
+            <size android:width="96dp" android:height="96dp" />
+        </shape>
+    </item>
+</layer-list>
